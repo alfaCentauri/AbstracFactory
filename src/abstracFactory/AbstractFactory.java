@@ -1,6 +1,6 @@
 package abstractFactory;
 /**
- * Implementa el método main para la ejecución del programa. Ejemplo de aplicación del patroncreacional Abstract Factory.
+ * Implementa el método main para la ejecución del programa.
  * @author Ricardo Presilla.
  * @version 1.0.
  */
@@ -20,7 +20,7 @@ public class AbstractFactory {
         ITablet tabletSamsung = samsung.crearTablet();
         IPhone galaxy = samsung.crearMovil();
 
-        System.out.println("Ejemplo de aplicación del patron creacional Abstract Factory.");
+        System.out.println("Ejemplo de aplicación del patroncreacional Abstract Factory.");
         System.out.println(apple.mensaje());
         System.out.println(samsung.mensaje());
     }
